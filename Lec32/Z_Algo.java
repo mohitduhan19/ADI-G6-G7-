@@ -1,5 +1,5 @@
 package Lec32;
-
+import java.util.*;
 public class Z_Algo {
     public static ArrayList<Integer> search(String pattern, String text)
     {
