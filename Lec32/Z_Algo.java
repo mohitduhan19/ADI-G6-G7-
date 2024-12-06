@@ -3,12 +3,11 @@ import java.util.*;
 public class Z_Algo {
     public static ArrayList<Integer> search(String pattern, String text)
     {
-
         String concat = pattern + "$" + text;
         ArrayList<Integer> res = new ArrayList<Integer> ();
         int l = concat.length();
 
-        int Z[] = new int[l];
+        int[] Z = new int[l];
 
         // Construct Z array
         getZarr(concat, Z);
